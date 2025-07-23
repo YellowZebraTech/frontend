@@ -5,12 +5,12 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/frontend/",
+  base: "/sortingfrontend/",
 
-  plugins: [react(), tailwindcss()]
- // server: { //
-  //  port: 5175,//
-  //  host: '0.0.0.0', //
-  //  strictPort: true // Evita cambio automático de puerto
-  //}
+  plugins: [react(), tailwindcss()],
+  server: { //    
+    host: '0.0.0.0', //
+    port: 5173,//
+    //strictPort: true // Evita cambio automático de puerto
+  }
 })
