@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/sortingfrontend/",
+  base: "/frontend/",
 
   plugins: [react(), tailwindcss()],
   server: { //    
